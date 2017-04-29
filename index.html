@@ -1,30 +1,15 @@
 <!DOCTYPE html>
-<html lang="en-us">
 	<head>
-		<meta charset="utf-8">
-		<title>Hangman</title>
-		<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/sandstone/bootstrap.min.css">
+		<title>Hangman Game</title>
+		<link href="main.css" rel="stylesheet" type="text/css"/>
+		<script src="jquery.js"></script>
+		<script src="controller.js"></script>
+		<meta name=viewport content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	</head>
-
 	<body>
-		
-		<div id="game">
-		<p>Press any key to begin playing Hangman!</p>
+		<div id="topbar">Hangman Game</div>
+		<div class="spacer"></div>
+		<div id="gameContent">
 		</div>
-
-		<script type="text/javascript">Hangman</script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
-
-			<var options = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
-			var wins = 0;
-			var losses = 0;
-
-			document.onkeyup = function(event) {
-			
-			var userGuess = String.fromCharCode(event.keyCode).toLowerCase();
-
-		</script>
-
 	</body>
-
 </html>
